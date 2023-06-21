@@ -1,0 +1,55 @@
+{
+    "name": "Primary",
+    "columns": [
+        {
+            "name": "timestamp",
+            "type": "datetime"
+        },
+        {
+            "name": "id",
+            "type": "string"
+        },
+        {
+            "name": "isSent",
+            "type": "bool"
+        },
+        {
+            "name": "isExpired",
+            "type": "bool"
+        },
+        {
+            "name": "message",
+            "type": "string"
+        },
+        {
+            "name": "comment",
+            "type": "string"
+        }
+    ],
+    "rows": [
+        [
+            "2023-06-01T00:11:23",
+            "123456",
+            null,
+            false,
+            "Some Message",
+            ""
+        ],
+        [
+            "2023-06-01T00:11:23",
+            "8765432",
+            true,
+            null,
+            "Some Message2",
+            "X"
+        ],
+        [
+            "2023-06-01T00:11:23",
+            "23456",
+            true,
+            false,
+            "Some Message Or Not",
+            "DDD"
+        ]
+    ]
+}
